@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SheCodes</title>
+    <style>
+      :root {
+        --text-align: center;
+        --text-color: grey;
+        --border-radius: 10px 10px;
+        --padding-size: 20px;
+        --primary-color: blue;
+      }
+
+      h1,
+      h2,
+      h3 {
+        display: flex;
+        justify-content: var(--text-align);
+      }
+
+      h2 {
+        font-size: 50px;
+      }
+
+      h3 {
+        color: var(--text-color);
+      }
+
+      .details {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .detailone {
+        border: 1px solid blue;
+        padding: var(--padding-size);
+        border-radius: var(--border-radius);
+        background-color: var(--primary-color);
+      }
+
+      .detailcolor {
+        color: white;
+      }
+
+      .detailcolors {
+        color: var(--primary-color);
+      }
+
+      .detailtwo {
+        border: 1px solid blue;
+        padding: var(--padding-size);
+        color: var(--primary-color);
+        border-radius: var(--border-radius);
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>👋 Hi I am</h1>
+
+    <h2>Ruth Thong</h2>
+
+    <h3>Plot conveyancer, based in UK</h3>
+    <div class="details">
+      <div class="detailone">
+        <a href="details.html#contact" class="detailcolor">Contact Me</a>
+      </div>
+      <div class="detailtwo">
+        <a href="details.html" class="detailcolors">About Me</a>
+      </div>
+    </div>
+  </body>
+</html>
